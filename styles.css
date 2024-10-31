@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f4ff; /* Светлый фон */
+    color: #333; /* Темный цвет текста */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование содержимого по горизонтали */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #003366; /* Темно-синий цвет */
+}
+
+h2 {
+    color: #0066cc; /* Синий цвет */
+    margin-bottom: 20px;
+}
+
+.app-list {
+    background-color: #e6ebf8; /* Светло-синий фон для секции с приложениями */
+    border: 2px solid #cccccc; /* Серебристая рамка */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px;
+    width: 100%; /* Ширина контейнера */
+    max-width: 600px; /* Максимальная ширина контейнера */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.app-item {
+    margin: 10px 0;
+}
+
+.download-btn {
+    background-color: #0066cc; /* Синий фон кнопки */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Увеличенный размер шрифта */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Кнопки занимают всю ширину */
+}
+
+.download-btn:hover {
+    background-color: #005bb5; /* Темнее синий при наведении */
+    transform: scale(1.1); /* Увеличение при наведении */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.download-btn1 {
+    background-color: grey; /* Синий фон кнопки */
+    color:white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px; /* Увеличенный размер шрифта */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Кнопки занимают всю ширину */
+}
